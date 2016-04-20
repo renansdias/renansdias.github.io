@@ -1,0 +1,33 @@
+# This is the default format.
+# For more see: http://jekyllrb.com/docs/permalinks/
+permalink: /:title
+# https://help.github.com/articles/migrating-your-pages-site-from-maruku
+markdown: kramdown
+
+highlighter: pygments
+#paginate: 20 # pagination based on number of posts
+#paginate_path: "page/:num"
+
+# These paths are to the main pages Jekyll-Bootstrap ships with.
+# Some JB helpers refer to these paths; change them here if needed.
+#
+categories_path : categories.html
+tags_path : tags.html
+
+#BASE_PATH : http://blog.ankanbiswas.in/uno-dbyll
+BASE_PATH : http://localhost:4000
+
+
+title : Renan Dias
+
+gems: [jekyll-paginate]
+paginate: 20
+paginate_path: "page:num"
+
+author:
+  name: Renan Dias 
+  role: DevOps Engineer
+  email: me@renandias.guru
+  github: renansdias
+  bio: "Simple, clean, responsive and stylist theme for jekyll. "
+  uno-dbyll: https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAYUAAAAJDg0NWQ4NWI2LWFkYmQtNGIxYy1iMTgxLTFlOGE1YzczMjA1OQ.jpg
