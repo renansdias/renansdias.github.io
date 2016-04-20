@@ -17,7 +17,7 @@
 <link rel="stylesheet" type="text/css" href="/assets/resources/syntax/syntax.css">
 <link rel="stylesheet" type="text/css" href="/assets/resources/bootstrap/css/bootstrap.min.css">
 <link rel="stylesheet" type="text/css" href="/assets/resources/font-awesome/css/font-awesome.min.css">
-<link rel="icon" href="https://raw.githubusercontent.com/talk2ankan/uno-dbyll/gh-pages/uno-dbyll.png">
+<link rel="icon" href="/assets/media/cloud2.png">
 
 <link href='http://fonts.googleapis.com/css?family=Raleway:300' rel='stylesheet' type='text/css'>
 
@@ -52,6 +52,11 @@ $("#sidebar").animate({width:'33.3333%'},'slow');
       {% if site.author.github %}
       <a type="button" class="navbar-toggle nav-link" href="http://github.com/{{ site.author.github }}" target="_blank">
         <i class="fa fa-github"></i>
+      </a>
+      {% endif %}
+      {% if site.author.facebook %}
+      <a type="button" class="social1" href="http://facebook.com/{{ site.author.facebook }}" target="_blank">
+        <i class="fa fa-facebook-square"></i>
       </a>
       {% endif %}
       {% if site.author.twitter %}
@@ -109,6 +114,7 @@ $("#sidebar").animate({width:'33.3333%'},'slow');
 <footer class="navbar navbar-default">
     <div class="container">
       <p class="navbar-text pull-left">Copyright &copy; {{ site.time | date: '%Y' }} {{ site.author.name }}. </br>
+      <!--Created using <a class="navbar-button" href="https://github.com/twbs/bootstrap">Bootstrap3</a> and <a class="navbar-button" href="https://github.com/jekyll/jekyll">Jekyll</a>. Theme : <a class="navbar-button" href="https://github.com/talk2ankan/uno-dbyll">uno-dbyll</a> by talk2ankan.-->
  </p>
  </div>
   </footer>

@@ -7,7 +7,7 @@ categories: [linux]
 tags: [Arch, lamp, setup, php, mariadb, appache, mysql ]
 
 ---
-## Hey
+## All about us
 
 ```
 {

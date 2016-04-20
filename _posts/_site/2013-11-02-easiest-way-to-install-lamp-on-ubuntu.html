@@ -1,0 +1,34 @@
+<p><img src="/assets/media/lamp.jpg" width="85%" />
+<br />
+<br />
+LAMP(Linux, Apache, MySQL, PHP or Perl) is one of the most essential servers needed by the web developers or web entrepreneurs around the globe. This tutorial explains one of the easiest ways to install LAMP on Ubuntu. Because Ubuntu uses Linux as it’s kernel we are done with the Linux part ;) .</p>
+
+<p>Install tasksel on your system:</p>
+
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="err">$</span> <span class="n">sudo</span> <span class="n">apt</span><span class="o">-</span><span class="n">get</span> <span class="n">update</span> <span class="o">&amp;&amp;</span> <span class="n">sudo</span> <span class="n">apt</span><span class="o">-</span><span class="n">get</span> <span class="n">install</span> <span class="n">tasksel</span></code></pre></figure>
+
+<p>Tasksel is a Debian/Ubuntu tool that installs multiple related packages as a co-ordinated “task” onto your system.
+Start tasksel:</p>
+
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="err">$</span> <span class="n">sudo</span> <span class="n">tasksel</span></code></pre></figure>
+
+<p>select the lamp-server and press ‘Ok’. Follow the steps as directed and create your Mysql password.&lt;/br&gt;
+Lastly,start apache2 server:</p>
+
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="err">$</span> <span class="n">sudo</span> <span class="n">service</span> <span class="n">apache2</span> <span class="n">restart</span></code></pre></figure>
+
+<p>Congratulations you have successfully installed LAMP server on your system. To test just visit your web browser and type in the following url:</p>
+
+<p><a href="http://localhost/">http://localhost/</a></p>
+
+<p>To test the php installation:</p>
+
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="err">$</span> <span class="n">sudo</span> <span class="n">nano</span> <span class="sr">/var/</span><span class="n">www</span><span class="o">/</span><span class="n">phptest</span><span class="p">.</span><span class="nf">php</span></code></pre></figure>
+
+<p>type in and save:</p>
+
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="o">&lt;</span><span class="p">?</span><span class="n">php</span> <span class="n">phpinfo</span><span class="p">();</span> <span class="sc">?&gt;</span></code></pre></figure>
+
+<p>and open the following url in your browser:</p>
+
+<p><a href="http://localhost/phptest.php">http://localhost/phptest.php</a></p>

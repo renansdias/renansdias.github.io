@@ -18,12 +18,17 @@ border: 3px solid #FFF; height:150px;width:150px" />
  <h3 class="title" style="font-size:30px;">
  
        {% if site.author.github %}
-      <a type="button" class="social1" href="http://github.com/{{ site.author.github }}">
+      <a type="button" class="social1" href="http://github.com/{{ site.author.github }}" target="_blank">
         <i class="fa fa-github"></i>
       </a>
       {% endif %}
+      {% if site.author.facebook %}
+      <a type="button" class="social1" href="http://facebook.com/{{ site.author.facebook }}" target="_blank">
+        <i class="fa fa-facebook-square"></i>
+      </a>
+      {% endif %}
        {% if site.author.twitter %}
-      <a type="button" class="social2" href="http://twitter.com/{{ site.author.twitter }}">
+      <a type="button" class="social2" href="http://twitter.com/{{ site.author.twitter }}" target="_blank">
         <i class="fa fa-twitter"></i>
       </a>
       {% endif %}

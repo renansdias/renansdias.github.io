@@ -1,6 +1,5 @@
-$(document).ready(function(){
-  alert("hello world");
-if(window.location.href=="http://blog.ankanbiswas.in/uno-dbyll/")
+$(document).ready(function() {
+if(window.location.href=="http://localhost:4000/")
 {
 $("#sidebar").css({width:'100%'});
 $("#btnblog").click(function(){
