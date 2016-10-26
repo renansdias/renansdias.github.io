@@ -15,7 +15,11 @@ categories_path : categories.html
 tags_path : tags.html
 
 #BASE_PATH : http://blog.ankanbiswas.in/uno-dbyll
+<<<<<<< HEAD
 BASE_PATH : http://localhost:4000
+=======
+BASE_PATH : http://renandias.guru
+>>>>>>> d57d83b5284018b65f2dd26d8313133fac1bf36a
 
 
 title : Renan Dias
@@ -26,9 +30,17 @@ paginate_path: "page/:num"
 
 author:
   name: Renan Dias 
+<<<<<<< HEAD
   role: DevOps Engineer at Flypay
   email: me@renandias.guru
   github: renansdias
   facebook: renansdiaz
   bio: "Main interests include Cloud Infrastructure Engineering and Automation, Continuous Deployment and Distributed Systems."
+=======
+  role: DevOps Engineer
+  email: me@renandias.guru
+  github: renansdias
+  linkedin: https://uk.linkedin.com/in/renan-dias-a2801163
+  bio: "Interested in Cloud Infrastructure Engineering and Automation, InfoSec, HADR at scale, Continuous Integration and Deployment and Distributed Systems."
+>>>>>>> d57d83b5284018b65f2dd26d8313133fac1bf36a
   uno-dbyll: https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAYUAAAAJDg0NWQ4NWI2LWFkYmQtNGIxYy1iMTgxLTFlOGE1YzczMjA1OQ.jpg

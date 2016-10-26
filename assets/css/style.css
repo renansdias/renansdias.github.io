@@ -82,6 +82,10 @@ footer {
 #sidebar {
 	position: fixed;
 	padding-top: 8%;
+<<<<<<< HEAD
+=======
+	width: 100%;
+>>>>>>> d57d83b5284018b65f2dd26d8313133fac1bf36a
 	height: 100%;
 	background-color:#6049df;
 	background-image: url("/assets/media/cover.png"),url("/assets/media/background-cover.jpg");	
