@@ -1,6 +1,6 @@
 
 <div class="page-header">
-  <h1>{{ page.title }} </h1>
+  <h2>{{ page.title }} </h2>
 </div>
   
 <article>
@@ -74,7 +74,18 @@
     <hr>
 
     <div>
-      <section class="share col-sm-6">
+
+      <section class="col-sm-12 author">
+        <img src="{{site.author.uno-dbyll}}" style="height:100px;width:100px;" class="img-rounded author-image" />
+        <h4 class="section-title author-name"><b>{{site.title}}</b><br/><p style="color:#888;font-size:13px;">{{site.author.role}}</p></h4>
+        <p class="author-bio">Renan Dias is a passionate DevOps engineer that enjoys learning and writing about Amazon Web Services, infrastructure engineering and automation, HADR at scale, information security, continuous integration and deployment, and distributed systems. In the past, he worked with a wide range of technologies, such as AngularJS, Node.js, MongoDB, Meteor.js, Ionic, HTML/CSS, LAMP stack, iOS SDK, OpenCV, Java and MATLAB. He has also contributed to a brazilian university's research about Computer Vision and received numerous awards during his student life.<p> 
+
+        <p class="author-bio">When not doing any infrastructure-related work, Renan spends his time travelling with his loved ones, learning languages (English, Spanish, German and Polish), practicing sports (Tennis, Ping Pong, Basketball, Cycling, Kung Fu) and playing the electric guitar and the drums.</p>
+
+        <p class="author-bio">You can find Renan on <a href="https://uk.linkedin.com/in/renan-dias-a2801163" target=_blank>LinkedIn</a></p>
+      </section>
+
+      <section class="share col-sm-12">
         <h4 class="section-title">Share Post</h4>
         <a class="btn btn-default btn-sm twitter" href="http://twitter.com/share?text={{page.title | encode}}{% if site.author.twitter%}&via={{site.author.twitter}}{% endif %}"
            onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
@@ -91,12 +102,6 @@
           <i class="fa fa-google-plus fa-lg"></i>
           Google+
         </a>
-      </section>
-
-      <section class="col-sm-6 author">
-        <img src="{{site.author.uno-dbyll}}" style="height:100px;width:100px;" class="img-rounded author-image" />
-        <h4 class="section-title author-name"><b>{{site.title}}</b><br/><p style="color:#888;font-size:13px;">{{site.author.role}}</p></h4>
-        <p class="author-bio">{{site.author.bio}}</p>
       </section>
     </div>
 
