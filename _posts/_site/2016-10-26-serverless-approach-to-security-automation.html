@@ -1,0 +1,35 @@
+<h1 id="introduction">Introduction</h1>
+
+<h1 id="technology-stack">Technology stack</h1>
+
+<p>For this article, the following tools and cloud provider will be used:</p>
+
+<p>// Create links for each bullet point</p>
+
+<ul>
+  <li><strong>Terraform</strong></li>
+  <li><strong>Ansible</strong></li>
+  <li><strong>Packer</strong></li>
+  <li><strong>Amazon Web Services</strong></li>
+</ul>
+
+<p>Ansible and Packer will be used to generate custom AMIs. <strong>Ansible</strong> will be used to configure this AMI with all the necessary software, and <strong>Packer</strong> will generate the AMI. Terraform, in turn, will be used to create reusable infrastructure modules. Let’s see how!</p>
+
+<h2 id="scenario-1">Scenario 1</h2>
+
+<p>In this scenario, we will build a simple infrastructure which consists of:</p>
+
+<ul>
+  <li>An Amazon VPC</li>
+  <li>2 public subnets</li>
+  <li>2 private subnets</li>
+  <li>2 NAT instances (one NAT instance in each public subnet)</li>
+  <li>Bastion hosts in the public subnet</li>
+  <li>A Redis cluster (ElastiCache) in the private subnet</li>
+</ul>
+
+<p>If this configuration is still not clear for you, take a look at the image below:</p>
+
+<p>&lt;SCENARIO 1 IMAGE&gt;</p>
+
+<p>To start off with, let’s create a git repository</p>

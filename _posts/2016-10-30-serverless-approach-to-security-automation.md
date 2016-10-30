@@ -6,6 +6,8 @@ categories: [devops, security]
 tags: [devops, security]
 ---
 
+<p>I originally published this article on <a href="https://bsdmag.org/download/serverless-approach-security-automation-new-bsd-mag/" target="_blank">BSD Magazine</a>.</p>
+
 # Introduction
 
 <p style="text-align: justify">Everyone is talking about DevOps (Development and Operations). Some people say DevOps is a job of a single man, some other people say DevOps is rather a culture and is about the collaboration between the development team and the operations team. Truth is that, regardless of the conflicting ideas, everyone agrees that one of DevOps’ main goals is automation. Software release automation, right? Well, not quite. There are a lot of things that can be automated: software release, infrastructure provisioning, testing, benchmarking and security, to name a few. Now, did you notice the last thing on this list? Security.
